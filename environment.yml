@@ -1,0 +1,39 @@
+name: heart-disease-ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+
+  # Core Data & Scientific Computing
+  - pandas
+  - numpy
+  - scipy
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # Machine Learning (Parts 1-3)
+  - scikit-learn
+  - xgboost
+  - lightgbm
+
+  # Deep Learning (Part 4)
+  - tensorflow
+  - keras
+
+  # Model Interpretability & Fairness (Part 4)
+  - shap
+
+  # Jupyter Notebooks
+  - jupyter
+  - notebook
+  - ipykernel
+
+  # Utilities
+  - pip
+
+  - pip:
+    # Fairness toolkit (Part 4)
+    - fairlearn
